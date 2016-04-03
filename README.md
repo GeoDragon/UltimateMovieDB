@@ -13,7 +13,6 @@ You will need to add your very own TMDB API Key to use the App.<br/>
     Random Fake data. Won't work. Go to Step 1 to make it work). <br/>
     <br/>
 Simple as that.<br/>
-<br/>    
 Enjoy the app :)<br/>
 Star it if you like it.<br/>
     
