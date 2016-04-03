@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">UltimateMovieDB</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_movie_detail">MovieDetail</string>
+    <string name="sort_criteria">Sort Criteria</string>
+    <string name="sort_by_popularity">Popularity</string>
+    <string name="sort_by_rating">Highest Rated</string>
+    <string name="title_activity_settings">Settings</string>
+</resources>

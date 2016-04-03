@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.udacityprojects.geonarz.ultimatemoviedb.MovieDetail"
+    tools:showIn="@layout/activity_movie_detail"
+    android:orientation="vertical"
+    android:background="@color/black"
+    >
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/detail_imageView"
+        android:scaleType="fitXY"
+        android:minHeight="300dp"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/detail_title"
+        android:text="To Populate with Title"
+        android:gravity="center_horizontal"
+        android:textSize="26sp"
+        android:textAllCaps="true"
+        android:background="@drawable/back"
+        android:padding="2dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/detail_releaseDate"
+            android:text="To Populate with release_date"
+            android:gravity="left"
+            android:layout_weight="1"
+            android:background="@drawable/back"
+            android:padding="2dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/detail_voteAverage"
+            android:text="To Populate with vote_average"
+            android:gravity="end"
+            android:layout_weight="1"
+            android:background="@drawable/back"
+            android:padding="2dp"
+            />
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/detail_overview"
+        android:text="To be populate with synopsis"
+        android:paddingTop="10dp"
+        android:background="@drawable/back"
+        android:padding="2dp"/>
+
+
+</LinearLayout>
+</ScrollView>
