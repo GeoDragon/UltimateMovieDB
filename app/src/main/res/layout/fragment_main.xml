@@ -9,7 +9,7 @@
     tools:context=".MovieFragment"
     tools:showIn="@layout/activity_main"
     android:id="@+id/grid_view"
-    android:numColumns="2"
+    android:numColumns="auto_fit"
     android:background="@color/black">
 
 </GridView>
